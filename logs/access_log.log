@@ -1,3 +1,0 @@
-2021-05-17 15:51:41,069 - /127.0.0.1:47160 "PUT /predictions/efficientnet-b1 HTTP/1.1" 200 171
-2021-05-17 15:53:18,934 - /127.0.0.1:47352 "PUT /predictions/efficientnet-b1 HTTP/1.1" 200 2292
-2021-05-17 16:02:28,908 - /127.0.0.1:47732 "PUT /predictions/efficientnet-b1 HTTP/1.1" 200 151

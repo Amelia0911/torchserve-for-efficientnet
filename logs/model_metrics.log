@@ -1,3 +1,0 @@
-2021-05-17 15:51:41,069 - PredictionTime.Milliseconds:163.43|#ModelName:efficientnet-b1,Level:Model|#hostname:pc,requestID:3f78f169-3e54-495f-a485-67b14fc187e2,timestamp:1621237901
-2021-05-17 15:53:18,934 - PredictionTime.Milliseconds:2289.79|#ModelName:efficientnet-b1,Level:Model|#hostname:pc,requestID:3b2439e7-a31e-43ed-9219-74f3578d5592,timestamp:1621237998
-2021-05-17 16:02:28,907 - PredictionTime.Milliseconds:144.76|#ModelName:efficientnet-b1,Level:Model|#hostname:pc,requestID:407c7891-b2cf-4020-8b29-9b752a1ddeb4,timestamp:1621238548
