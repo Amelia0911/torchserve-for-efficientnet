@@ -44,6 +44,15 @@ curl "http://localhost:8081/models"
 ## 测试
 ```
 curl http://127.0.0.1:8080/predictions/efficientnet-b1 -T cat.jpg
+
+输出：
+{
+  "tabby": 0.6616447567939758,
+  "Egyptian_cat": 0.13378049433231354,
+  "tiger_cat": 0.09632444381713867,
+  "paper_towel": 0.006356021389365196,
+  "Persian_cat": 0.005184500478208065
+}
 ```
 
 ## 停止服务
