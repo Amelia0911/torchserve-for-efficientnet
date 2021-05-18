@@ -22,6 +22,7 @@ python ./ts_scripts/install_dependencies.py
 ```
 
 ## 创建.mar文件
+首先对模型进行格式转换，代码：export_model.py。
 ```
 torch-model-archiver --model-name efficientnet-b1 \
 --version 1.0 \
@@ -29,7 +30,16 @@ torch-model-archiver --model-name efficientnet-b1 \
 --extra-files ./index_to_name.json,./MyHandler.py \
 --handler my_handler.py  \
 --export-path model-store -f
+
+参数说明：
+torch-model-archiver --model-name efficientnet \     #打包的包名称，.mar
+--version 1.0 \                                      #设定版本
+--serialized-file efficientNet.pt \                  #导出的模型名称
+--extra-files ./index_to_name.json,./MyHandler.py \  #附加文件：模型label；handler-整个推理过程(预处理+推理+后处理)
+--handler my_handler.py  \                           #server-handler：推理流程
+--export-path model-store -f                         #生成到制定文件夹-覆盖形式
 ```
+
 
 ## 启动模型服务
 ```
